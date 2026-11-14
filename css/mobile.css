@@ -1,0 +1,58 @@
+/* Phones and tablets. html.touch is set by js/touch.js on touch screens. */
+[hidden] { display: none !important; }
+
+/* hints that differ between mouse and finger */
+.on-touch { display: none; }
+html.touch .on-touch { display: inline; }
+html.touch .no-touch { display: none; }
+
+html.touch { touch-action: manipulation; -webkit-tap-highlight-color: transparent; } /* no double-tap zoom / tap delay */
+html.touch img { -webkit-touch-callout: none; }
+html.touch .game [draggable="true"] { touch-action: none; } /* a finger on a table card drags it, never pans */
+html.touch .ctx button { padding: 10px 14px; font-size: 15px; }
+html.touch .ctx { min-width: 220px; }
+html.touch .b-grid .card:hover { outline: none; }
+html.touch .mini { width: 30px; height: 28px; font-size: 16px; }
+
+/* finger drag (js/touch.js) */
+.touch-ghost { position: fixed; z-index: 200; margin: 0; pointer-events: none; opacity: .92;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, .7), 0 0 0 2px var(--accent); transform-origin: center; }
+.touch-src { opacity: .35; }
+
+/* phones held upright: the 16:9 table would be postage-stamp sized */
+@media (orientation: portrait) and (max-width: 600px) {
+  body[data-view="game"]::after {
+    content: '⟳  Turn your phone sideways to play'; position: fixed; inset: 0; z-index: 300;
+    display: grid; place-items: center; background: rgba(5, 6, 10, .94); color: var(--text); font-size: 20px; font-weight: 600;
+  }
+}
+
+/* narrow screens: compact top bar */
+@media (max-width: 700px) {
+  .topnav { gap: 8px; padding: 0 8px; }
+  .topnav .brand img { height: 26px; }
+  .topnav nav { overflow-x: auto; scrollbar-width: none; }
+  .topnav nav a { padding: 6px 7px; font-size: 13px; white-space: nowrap; }
+  .topnav nav { gap: 0; flex: 1; min-width: 0; }
+  .langsel { font-size: 0; } /* keep just the select */
+  .langsel select { font-size: 13px; }
+  .topnav .grow { display: none; }
+  .langsel select { max-width: 84px; }
+}
+
+/* phone held upright: logo + language on top, the links get their own row */
+@media (max-width: 480px) {
+  .topnav { flex-wrap: wrap; height: auto; padding: 4px 8px; row-gap: 2px; }
+  .topnav .grow { display: block; }
+  .topnav nav { order: 3; flex: 1 0 100%; justify-content: space-between; }
+}
+
+/* deck builder / card database on a phone: one column, card pool first */
+@media (max-width: 760px) {
+  .builder, .cardsview { display: flex; flex-direction: column; overflow: auto; padding: 8px; gap: 8px; }
+  .builder > section, .cardsview > section { flex: none; overflow: visible; }
+  .b-pool { min-height: 70vh; }
+  .b-grid { --cw: 92px; max-height: 70vh; }
+  .pool-head > .grow { flex: 1 0 100%; }
+  .modal { padding: 12px 14px; }
+}

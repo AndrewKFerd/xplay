@@ -1,0 +1,13 @@
+{
+  "name": "xross-connect",
+  "version": "1.5.4",
+  "private": true,
+  "type": "module",
+  "description": "Browser tabletop simulator for the Xross Stars TCG",
+  "scripts": {
+    "start": "python tools/serve.py",
+    "fetch-cards": "node tools/fetch-cards.mjs",
+    "fetch-decks": "node tools/fetch-decks.mjs",
+    "release": "python tools/release.py"
+  }
+}

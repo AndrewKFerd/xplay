@@ -1,0 +1,325 @@
+[
+ {
+  "id": "xs-53b7af20-d5d5-4d2a-a47c-a188f7ad442b",
+  "name": "ODWe are...!",
+  "leaders": [
+   "BP01-126-LRP",
+   "BP04-082-LRP",
+   "BP04-089-LRP",
+   "BP04-097-LRP"
+  ],
+  "main": {
+   "BP01-071": 2,
+   "BP03-059": 3,
+   "BP04-024": 3,
+   "BP01-048": 4,
+   "BP04-020": 4,
+   "BP04-028": 4,
+   "BP04-037": 4,
+   "BP04-048": 4,
+   "BP04-056": 4,
+   "BP04-065": 4,
+   "BP02-040": 2,
+   "BP04-018": 4,
+   "BP02-054": 2,
+   "BP02-068": 4,
+   "BP04-053": 2
+  },
+  "tactics": [
+   "BP02-074",
+   "BP02-075",
+   "BP03-073",
+   "BP04-073",
+   "BP04-079"
+  ],
+  "source": "https://xross-stars.com/deck/53b7af20-d5d5-4d2a-a47c-a188f7ad442b",
+  "updated": 0,
+  "recipeSource": "https://yuyu-tei.jp/show/xs/content/27451"
+ },
+ {
+  "id": "xs-d6e2bb97-630b-4b0c-a4f1-a94c83b914c9",
+  "name": "1st Anniv. PREMIUM SET",
+  "leaders": [
+   "BP02-091-LRP",
+   "AN01-001-LRP",
+   "AN01-003-LRP",
+   "AN01-004-LRP"
+  ],
+  "main": {
+   "AN01-012": 4,
+   "AN01-008": 4,
+   "BP02-029": 4,
+   "AN01-006": 3,
+   "AN01-010": 3,
+   "AN01-011": 4,
+   "BP02-057": 4,
+   "AN01-014": 4,
+   "AN01-016": 4,
+   "AN01-017": 4,
+   "PR-002": 4,
+   "AN01-005": 2,
+   "AN01-009": 4,
+   "AN01-013": 2
+  },
+  "tactics": [
+   "BP01-095",
+   "BP02-074",
+   "BP02-075",
+   "BP03-075",
+   "BP04-073"
+  ],
+  "source": "https://xross-stars.com/deck/d6e2bb97-630b-4b0c-a4f1-a94c83b914c9",
+  "updated": 0,
+  "recipeSource": "https://yuyu-tei.jp/show/xs/content/27498"
+ },
+ {
+  "id": "xs-8b809aae-ce09-4703-ab3c-548c01da6764",
+  "name": "はなび緋月型 宴ラッシュ",
+  "leaders": [
+   "BP02-086-LRP",
+   "BP02-101-LRP",
+   "BP03-084-LRP",
+   "BP04-083-LRP"
+  ],
+  "main": {
+   "BP03-017": 4,
+   "BP03-038": 4,
+   "BP02-023": 3,
+   "BP02-042": 4,
+   "BP03-022": 4,
+   "BP02-051": 4,
+   "BP02-070": 4,
+   "BP03-050": 4,
+   "BP04-049": 4,
+   "PR-001": 4,
+   "PR-044": 4,
+   "BP04-039": 3,
+   "PR-023": 4
+  },
+  "tactics": [
+   "BP03-074",
+   "BP03-075",
+   "BP03-077",
+   "BP04-073",
+   "BP04-080"
+  ],
+  "source": "https://xross-stars.com/deck/8b809aae-ce09-4703-ab3c-548c01da6764",
+  "updated": 0,
+  "recipeSource": "https://yuyu-tei.jp/show/xs/content/27347"
+ },
+ {
+  "id": "xs-fa624b09-99ac-433b-844e-139b46a895d0",
+  "name": "収穫アサルト",
+  "leaders": [
+   "BP01-125-LRP",
+   "BP01-106-LRP",
+   "BP02-086-LRP",
+   "BP04-082-LRP"
+  ],
+  "main": {
+   "BP01-044": 4,
+   "BP04-066": 4,
+   "BP01-025": 4,
+   "BP01-047": 3,
+   "BP02-023": 4,
+   "BP04-020": 4,
+   "BP01-061": 4,
+   "BP01-083": 4,
+   "BP02-051": 4,
+   "BP01-018": 4,
+   "BP04-114-CP": 3,
+   "BP04-039": 3,
+   "BP02-068": 4,
+   "BP04-067": 1
+  },
+  "tactics": [
+   "BP02-074",
+   "BP03-074",
+   "BP03-075",
+   "BP04-073",
+   "BP04-075"
+  ],
+  "source": "https://xross-stars.com/deck/fa624b09-99ac-433b-844e-139b46a895d0",
+  "updated": 0,
+  "recipeSource": "https://yuyu-tei.jp/show/xs/content/27295"
+ },
+ {
+  "id": "xs-68154699-889f-4f8f-850e-b05ecf23d4f7",
+  "name": "アサルト収穫ストーム",
+  "leaders": [
+   "BP01-130-LRP",
+   "BP01-106-LRP",
+   "BP02-086-LRP",
+   "BP04-082-LRP"
+  ],
+  "main": {
+   "BP01-044": 4,
+   "BP03-017": 1,
+   "BP04-066": 3,
+   "BP01-025": 4,
+   "BP02-023": 4,
+   "BP04-020": 4,
+   "BP01-061": 4,
+   "BP01-088": 4,
+   "BP02-051": 4,
+   "BP01-018": 4,
+   "BP04-114-CP": 2,
+   "PR-044": 2,
+   "BP04-039": 3,
+   "PR-023": 4,
+   "BP04-046": 3
+  },
+  "tactics": [
+   "BP03-074",
+   "BP03-075",
+   "BP04-073",
+   "BP04-075",
+   "BP04-076"
+  ],
+  "source": "https://xross-stars.com/deck/68154699-889f-4f8f-850e-b05ecf23d4f7",
+  "updated": 0,
+  "recipeSource": "https://yuyu-tei.jp/show/xs/content/27046"
+ },
+ {
+  "id": "xs-264205b7-c8bf-43aa-9480-84fd0f6c566d",
+  "name": "宴アナイアレーション",
+  "leaders": [
+   "BP02-103-LRP",
+   "BP04-083-LRP",
+   "BP04-091-LRP",
+   "BP04-095-LRP"
+  ],
+  "main": {
+   "BP03-038": 4,
+   "BP04-038": 4,
+   "BP02-044": 4,
+   "BP04-030": 4,
+   "BP04-035": 4,
+   "BP02-072": 4,
+   "BP04-049": 4,
+   "BP04-058": 4,
+   "BP04-063": 4,
+   "BP03-039": 4,
+   "BP04-039": 4,
+   "PR-023": 4,
+   "BP04-046": 2
+  },
+  "tactics": [
+   "BP01-095",
+   "BP03-073",
+   "BP03-074",
+   "BP03-075",
+   "BP04-073"
+  ],
+  "source": "https://xross-stars.com/deck/264205b7-c8bf-43aa-9480-84fd0f6c566d",
+  "updated": 0,
+  "recipeSource": "https://yuyu-tei.jp/show/xs/content/27046"
+ },
+ {
+  "id": "xs-09437d85-6168-4313-97c2-e0b12c769bac",
+  "name": "青3ODアサルト",
+  "leaders": [
+   "BP01-130-LRP",
+   "BP03-088-LRP",
+   "BP03-089-LRP",
+   "BP04-091-LRP"
+  ],
+  "main": {
+   "BP01-044": 4,
+   "BP04-024": 4,
+   "BP03-027": 4,
+   "BP03-028": 4,
+   "BP04-030": 4,
+   "BP01-088": 4,
+   "BP03-055": 4,
+   "BP03-056": 4,
+   "BP04-058": 4,
+   "PR-002": 4,
+   "BP04-114-CP": 2,
+   "BP04-039": 2,
+   "BP02-068": 4,
+   "BP04-054": 2
+  },
+  "tactics": [
+   "ST01-023",
+   "BP03-074",
+   "BP03-075",
+   "BP04-073",
+   "BP04-075"
+  ],
+  "source": "https://xross-stars.com/deck/09437d85-6168-4313-97c2-e0b12c769bac",
+  "updated": 0,
+  "recipeSource": "https://yuyu-tei.jp/show/xs/content/27144"
+ },
+ {
+  "id": "xs-161012f4-d8b9-4745-9df9-b831b0e91974",
+  "name": "緑3ODアサルト",
+  "leaders": [
+   "BP01-130-LRP",
+   "BP03-088-LRP",
+   "BP03-101-LRP",
+   "BP04-100-LRP"
+  ],
+  "main": {
+   "BP01-044": 4,
+   "BP04-024": 4,
+   "BP03-027": 4,
+   "BP03-042": 4,
+   "BP04-041": 4,
+   "BP01-088": 4,
+   "BP03-055": 4,
+   "BP03-070": 4,
+   "BP04-069": 4,
+   "BP01-045": 4,
+   "BP04-114-CP": 2,
+   "BP04-039": 2,
+   "PR-023": 4,
+   "BP04-054": 2
+  },
+  "tactics": [
+   "BP01-095",
+   "BP03-074",
+   "BP03-075",
+   "BP04-073",
+   "BP04-075"
+  ],
+  "source": "https://xross-stars.com/deck/161012f4-d8b9-4745-9df9-b831b0e91974",
+  "updated": 0,
+  "recipeSource": "https://yuyu-tei.jp/show/xs/content/27144"
+ },
+ {
+  "id": "xs-6307f7e6-e206-40ce-9890-56110c4aa3c1",
+  "name": "先導者ストーム",
+  "leaders": [
+   "BP01-106-LRP",
+   "BP02-086-LRP",
+   "BP02-096-LRP",
+   "BP04-082-LRP"
+  ],
+  "main": {
+   "BP01-071": 4,
+   "BP03-017": 4,
+   "BP01-025": 4,
+   "BP02-023": 4,
+   "BP02-036": 4,
+   "BP04-020": 4,
+   "BP01-061": 4,
+   "BP02-051": 4,
+   "BP02-064": 4,
+   "BP01-018": 4,
+   "BP04-113-CP": 3,
+   "PR-010": 3,
+   "PR-022": 4
+  },
+  "tactics": [
+   "BP02-075",
+   "BP03-073",
+   "BP04-073",
+   "BP04-076",
+   "BP04-079"
+  ],
+  "source": "https://xross-stars.com/deck/6307f7e6-e206-40ce-9890-56110c4aa3c1",
+  "updated": 0,
+  "recipeSource": "https://yuyu-tei.jp/show/xs/content/27144"
+ }
+]

@@ -1,0 +1,34 @@
+/* Fixed 1600×900 game stage, scaled uniformly by board.js (fitStage). Every size inside is in
+   stage pixels, and every zone has a fixed height, so nothing reflows as cards come and go. */
+body[data-view="game"] { overflow: hidden; }
+.game { position: fixed; inset: 0; display: block; height: auto; background: radial-gradient(ellipse at center, #141a33 0%, #05060a 75%); overflow: hidden; }
+.stage {
+  position: absolute; left: 0; top: 0; width: 1600px; height: 900px; transform-origin: 0 0;
+  display: grid; grid-template-columns: 1fr 300px; overflow: hidden;
+  border-radius: 6px; box-shadow: 0 0 0 1px #ffffff10, 0 20px 80px rgba(0,0,0,.6);
+  --cw: 64px; --lw: 84px;
+}
+.stage .table { padding: 6px 10px; gap: 4px; overflow: hidden; }
+.stage .side { flex: none; gap: 4px; }
+.stage .midbar { height: 32px; align-items: center; }
+
+/* fixed row heights */
+.stage .zone.play { height: 104px; min-height: 0; flex-wrap: nowrap; overflow: hidden; }
+.stage .field { height: 170px; }
+.stage .ppbar { height: 36px; flex-wrap: nowrap; }
+.stage .zone.hand { height: 126px; min-height: 0; flex-wrap: nowrap; }
+.stage .zone.hand.opp { height: 62px; }
+
+/* card sizes in stage pixels (replace the old viewport-based clamps) */
+.stage .zone.hand .card { --cw: 80px; }
+.stage .zone.hand.opp .card { --cw: 40px; }
+.stage .zone.tarea .card { --cw: 50px; }
+.stage .equips .card { --cw: 30px; }
+.stage .zone.tarea { min-height: 98px; }
+
+.stage .gside { min-height: 0; overflow: hidden; }
+.stage .gprev { max-height: 470px; overflow-y: auto; position: relative; }
+.gprev .scrollhint { display: none; }
+/* fade + hint when the card details continue below */
+.gprev.more .scrollhint { display: block; position: sticky; bottom: 0; text-align: center; font-size: 11px; color: var(--muted); padding: 22px 0 2px; background: linear-gradient(transparent, var(--bg2) 65%); pointer-events: none; }
+#goverlay .cover { z-index: 40; }

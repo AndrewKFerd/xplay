@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="XPLAY">
+  <title>XPLAY</title>
+  <link rel="icon" href="icons/icon-32.png" type="image/png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#141924">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fx.css">
+  <link rel="stylesheet" href="css/stage.css">
+  <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+  <header class="topnav">
+    <a href="#" data-nav="home" class="brand" title="XPLAY"><img src="assets/logo.png" alt="XPLAY"></a>
+    <nav>
+      <a href="#online" data-nav="online">Online</a>
+      <a href="#setup" data-nav="setup">Local</a>
+      <a href="#builder" data-nav="builder">Deck builder</a>
+      <a href="#cards" data-nav="cards">Cards</a>
+    </nav>
+    <span class="grow"></span>
+    <label class="langsel" title="Card language">🌐 <select id="lang" class="inp sm"><option value="en">English</option><option value="ja">日本語</option></select></label>
+  </header>
+  <main id="app"></main>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
